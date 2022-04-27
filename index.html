@@ -18,12 +18,45 @@
 </style>  
 </head>
   <body>
-    <header></header>
+   
     <main class="flex w-full">
+    <nav class="fixed inset-x-0 top-0 navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">RESUME</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#introduction">소개</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">학력사항</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">프로그래밍 스킬</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#certificate">자격증/어학</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience1">경력</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#experience2">경험</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              귀사와 함께 하고 싶습니다.
+            </span>
+          </div>
+        </div>
+      </nav>
       <section id="wrapper" class="w-1/5 flex flex-col items-center p-8 bg-sky-200">
         <div
           id="profile"
-          class="justify-items-end w-32 h-40 rounded-xl bg-cover border-4 mt-10 border-white"
+          class="justify-items-end w-32 h-40 rounded-xl bg-cover border-4 mt-14 border-white"
           style="background-image: url(./img/증명사진_박성범.jpg)"
         ></div>
         <div id="name" class="text-center m-3">
@@ -73,7 +106,7 @@
         </div>
       </section>
 
-      <section id="content" class="flex flex-col items-left w-4/5 p-5 pt-16 bg-gray-200">
+      <section id="content" class="flex flex-col items-left w-4/5 p-5 mt-10 pt-16 bg-gray-200">
         <div
           id="introduction"
           class="text-sm border-white border-4 rounded-xl p-5"
@@ -151,7 +184,7 @@
           <p>자격증: 정보처리기사 / SQLD / 한국사1급</p>
         </div>
         <div
-          id="experience"
+          id="experience1"
           class="text-sm border-white border-4 rounded-xl mt-5 p-5"
         >
           <h2 class="text-2xl p-2"><img class="inline mr-2" src="./img/portfolio.png" style="width: 1.5em;">경력</h2>
@@ -168,7 +201,7 @@
           </p>
         </div>
         <div
-          id="experience"
+          id="experience2"
           class="text-sm border-white border-4 rounded-xl mt-5 p-5"
         >
           <h2 class="text-2xl p-2"><img class="inline mr-2" src="./img/team.png" style="width: 1.5em;">경험</h2>
