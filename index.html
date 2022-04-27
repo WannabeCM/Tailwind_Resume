@@ -18,7 +18,7 @@
 </style>  
 </head>
   <body>
-    <main class="flex w-full">
+    <main class="md:flex w-full">
     <nav class="fixed inset-x-0 top-0 navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">RESUME</a>
@@ -52,7 +52,7 @@
           </div>
         </div>
       </nav>
-      <section id="wrapper" class="w-1/5 flex flex-col items-center p-8 bg-sky-200">
+      <section id="wrapper" class=" flex p-5 md:w-1/5 flex-col items-center md:p-8 bg-sky-200">
         <div
           id="profile"
           class="justify-items-end w-32 h-40 rounded-xl bg-cover border-4 mt-14 border-white"
@@ -63,49 +63,51 @@
           <p class="text-xl">SUNGBUM</p>
         </div>
         <div id="name" class="text-sm">Frontend Developer</div>
-        <div id="contact" class="text-sm">
-          <h2 class="border-b text-xl pt-5 border-b-2 border-sky-900">
-            <span class="text-sky-700">///</span>contact
-          </h2>
-          <p class="pt-2">
-            phone <br />
-            <span class="text-xs">010-9889-3820</span>
-          </p>
-          <p class="pt-2">
-            Email <br />
-            <span class="text-xs">stiger333@naver.com</span>
-          </p>
-          <p class="pt-2">
-            Github/Blog <br />
-            <span class="text-xs text-red-700"><a href="https://github.com/WannabeCM">WannabeCM</a> / <a href="https://bumlog.tistory.com/">bumlog</a></span>
-          </p>
-          <p class="pt-2">
-            Address <br />
-            <span class="text-xs">경기도 수원시</span>
-          </p>
-        </div>
-        <div id="hobby" class="text-sm">
-          <h2 class="border-b text-xl pt-5 border-b-2 border-sky-900">
-            <span class="text-sky-700">///</span>취미
-          </h2>
-          <p class="pt-2">독서,헬스,악기연주</p>
-        </div>
-        <div id="military" class="text-sm">
-          <h2 class="border-b text-xl pt-5 border-b-2 border-gray-900">
-            <span class="text-sky-700">///</span>병역
-          </h2>
-          <p class="pt-2">2016.12 ~ 2018.09</p>
-          <p class="pt-2">육군 병장 만기전역</p>
-          <p class="pt-2">
-            <p>수리부속계 행정병</p> 
-            <p>중형차량 운전병</p> 
-            <p>대대 기독교 군종병</p>
-            <p>본부포대 이발병</p>
-          </p>
+        <div id="containter" class="flex md:flex-col">
+          <div id="contact" class="text-sm">
+            <h2 class="border-b text-xl pt-5 border-b-2 border-sky-900">
+              <span class="text-sky-700">///</span>contact
+            </h2>
+            <p class="pt-2">
+              phone <br />
+              <span class="text-xs">010-9889-3820</span>
+            </p>
+            <p class="pt-2">
+              Email <br />
+              <span class="text-xs">stiger333@naver.com</span>
+            </p>
+            <p class="pt-2">
+              Github/Blog <br />
+              <span class="text-xs text-red-700"><a href="https://github.com/WannabeCM">WannabeCM</a> / <a href="https://bumlog.tistory.com/">bumlog</a></span>
+            </p>
+            <p class="pt-2">
+              Address <br />
+              <span class="text-xs">경기도 수원시</span>
+            </p>
+          </div>
+          <div id="hobby" class="text-sm mr-5 ml-5 md:m-0">
+            <h2 class="border-b text-xl pt-5 border-b-2 border-sky-900">
+              <span class="text-sky-700">///</span>취미
+            </h2>
+            <p class="pt-2">독서,헬스,악기연주</p>
+          </div>
+          <div id="military" class="text-sm">
+            <h2 class="border-b text-xl pt-5 border-b-2 border-gray-900">
+              <span class="text-sky-700">///</span>병역
+            </h2>
+            <p class="pt-2">2016.12 ~ 2018.09</p>
+            <p class="pt-2">육군 병장 만기전역</p>
+            <p class="pt-2">
+              <p>수리부속계 행정병</p> 
+              <p>중형차량 운전병</p> 
+              <p>대대 기독교 군종병</p>
+              <p>본부포대 이발병</p>
+            </p>
+          </div>
         </div>
       </section>
 
-      <section id="content" class="flex flex-col items-left w-4/5 p-5 mt-10 pt-16 bg-gray-200">
+      <section id="content" class="md:flex md:flex-col items-left md:w-4/5 p-5 md:mt-10 pt-16 bg-gray-200">
         <div
           id="introduction"
           class="text-sm border-white border-4 rounded-xl p-5"
